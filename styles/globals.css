@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+    @apply flex-col;
+}
+
+input,select{
+    @apply px-2 py-1 border-indigo-300 border rounded-lg focus:outline-indigo-700;
+}
+.icons{
+    width: 34px;
+    height: 34px;
+}
